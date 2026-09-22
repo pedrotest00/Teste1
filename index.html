@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17202b">
+  <title>Parque Infinito</title>
+  <link rel="icon" href="assets/attractions/icon_like_01.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" width="1280" height="720" tabindex="0" aria-label="Parque Infinito. Use WASD ou setas para andar, E para interagir e Escape para pausar."></canvas>
+    <section id="hud" class="hidden" aria-label="Seu passeio">
+      <div class="hud-top"><span id="areaName">Entrada</span></div>
+      <div class="stats"><div><span>PONTOS</span><b id="txtScore">0</b></div><div><span>HORÁRIO</span><b id="txtClock">14:00</b></div><button id="pauseBtn" aria-label="Pausar">II</button></div>
+      <div id="interactionHint" class="interaction-hint hidden"></div>
+    </section>
+    <div id="notifications" class="notifications" role="status" aria-live="polite"></div>
+    <section id="screenMenu" class="overlay screen active" role="dialog" aria-modal="true" aria-labelledby="gameTitle">
+      <div class="panel menu-panel start-panel">
+        <div class="start-visual" aria-hidden="true">
+          <img src="assets/props/tree_full_01.png" class="menu-tree menu-tree-left" alt="">
+          <img src="assets/characters/player_idle_down.png" class="menu-player" alt="">
+          <img src="assets/npcs/host_idle_down.png" class="menu-host" alt="">
+          <img src="assets/props/tree_full_01.png" class="menu-tree menu-tree-right" alt="">
+        </div>
+        <p class="eyebrow">UM PASSEIO SEM PRESSA DE ACABAR</p>
+        <h1 id="gameTitle">PARQUE<br>INFINITO</h1>
+        <p class="start-subtitle">Tem sempre mais uma atração.</p>
+        <div class="menu-actions"><button id="startBtn" class="primary" disabled>PREPARANDO…</button><button id="aboutBtn">SOBRE / CONTROLES</button><button class="sound-toggle" aria-pressed="true">SOM: LIGADO</button></div>
+        <p id="loadingStatus" role="status">Preparando o parque…</p>
+        <p class="controls">WASD ou setas · E interagir · ESC pausa</p>
+      </div>
+    </section>
+    <section id="screenAbout" class="overlay screen" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+      <div class="panel text-panel">
+        <span class="eyebrow">ANTES DE ENTRAR</span><h2 id="aboutTitle">O passeio</h2>
+        <p>Siga o caminho para baixo e experimente as cinco atrações. O parque abre passagem depois de cada uma.</p>
+        <p><b>WASD ou setas:</b> andar<br><b>E:</b> interagir<br><b>ESC:</b> pausar, inclusive nas atrações<br><b>M:</b> ligar ou desligar o som</p>
+        <p>Nas atrações, use os botões ou as teclas indicadas. Elas terminam mesmo se você não acertar. Depois da última, basta caminhar até a saída.</p>
+        <p class="muted">Uma experiência escolar sobre atenção, recompensas e tempo nas redes sociais. Duração prevista: 5 a 8 minutos, conforme seu ritmo.</p>
+        <button data-close="screenAbout" class="primary">VOLTAR</button>
+      </div>
+    </section>
+    <section id="screenIntro" class="overlay screen dialogue-screen" role="dialog" aria-modal="true" aria-labelledby="introSpeaker">
+      <div class="panel dialogue-panel"><div class="dialogue-layout">
+        <img src="assets/portraits/portrait_host_normal.png" class="dialogue-portrait" alt="Anfitrião">
+        <div><span class="speaker" id="introSpeaker">ANFITRIÃO</span><p id="introText">Pode entrar. O túnel fica logo ali.</p><button id="introNext" class="primary">VAMOS</button></div>
+      </div></div>
+    </section>
+    <section id="screenPause" class="overlay screen" role="dialog" aria-modal="true" aria-labelledby="pauseTitle">
+      <div class="panel menu-panel compact"><span class="eyebrow">O PARQUE PODE ESPERAR</span><h2 id="pauseTitle">PAUSADO</h2><button id="resumeBtn" class="primary">CONTINUAR</button><button class="sound-toggle" aria-pressed="true">SOM: LIGADO</button><button id="restartBtnPause">REINICIAR</button><button id="menuBtnPause">MENU</button></div>
+    </section>
+    <section id="screenDialogue" class="overlay screen dialogue-screen" role="dialog" aria-modal="true" aria-labelledby="dialogueSpeaker">
+      <div class="panel dialogue-panel"><div class="dialogue-layout"><img id="dialoguePortrait" src="assets/portraits/portrait_host_normal.png" class="dialogue-portrait" alt=""><div><span class="speaker" id="dialogueSpeaker">PARQUE</span><p id="dialogueText"></p><div id="dialogueChoices" class="choices"></div></div></div></div>
+    </section>
+    <section id="screenAttraction" class="overlay screen attraction-screen" role="dialog" aria-modal="true" aria-labelledby="attractionTitle">
+      <div class="panel attraction-panel"><div class="attraction-heading"><img id="attractionArt" src="assets/attractions/attraction_tunnel_base.png" alt=""><div><span class="speaker" id="attractionType">ATRAÇÃO</span><h2 id="attractionTitle"></h2></div></div><div id="attractionContent"></div><div id="attractionChoices" class="choices"></div></div>
+    </section>
+    <section id="screenEnding" class="overlay screen" role="dialog" aria-modal="true" aria-labelledby="endingTitle">
+      <div class="panel ending-panel"><span class="eyebrow">FIM DO PASSEIO</span><h2 id="endingTitle"></h2><p id="endingMessage"></p><div id="endingStats" class="ending-stats"></div><p class="central-message">Do que você lembra do caminho?</p><button id="playAgainBtn" class="primary">JOGAR NOVAMENTE</button><button id="menuBtnEnd">MENU</button></div>
+    </section>
+    <div id="touchControls" class="hidden" aria-label="Controles de toque"><div class="dpad"><button data-move="arrowup" aria-label="Andar para cima">↑</button><button data-move="arrowleft" aria-label="Andar para a esquerda">←</button><button data-move="arrowdown" aria-label="Andar para baixo">↓</button><button data-move="arrowright" aria-label="Andar para a direita">→</button></div><button id="touchInteract" aria-label="Interagir">E</button></div>
+    <noscript>Ative o JavaScript no navegador para jogar Parque Infinito.</noscript>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

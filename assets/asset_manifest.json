@@ -1,0 +1,1767 @@
+{
+  "name": "Parque Infinito — 116 sprites",
+  "version": "1.0",
+  "count": 116,
+  "pixel_scale": 2,
+  "items": [
+    {
+      "path": "characters/player_idle_down.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "characters/player_walk_down_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated keyframe / registered animation",
+      "animation": "player_walk_down",
+      "frame": 1,
+      "frame_duration_ms": 150
+    },
+    {
+      "path": "characters/player_walk_down_02.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated keyframe / registered animation",
+      "animation": "player_walk_down",
+      "frame": 2,
+      "frame_duration_ms": 150
+    },
+    {
+      "path": "characters/player_idle_up.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "characters/player_walk_up_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated keyframe / registered animation",
+      "animation": "player_walk_up",
+      "frame": 1,
+      "frame_duration_ms": 150
+    },
+    {
+      "path": "characters/player_walk_up_02.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated keyframe / registered animation",
+      "animation": "player_walk_up",
+      "frame": 2,
+      "frame_duration_ms": 150
+    },
+    {
+      "path": "characters/player_idle_left.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "characters/player_walk_left_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated keyframe / registered animation",
+      "animation": "player_walk_left",
+      "frame": 1,
+      "frame_duration_ms": 150
+    },
+    {
+      "path": "characters/player_walk_left_02.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated keyframe / registered animation",
+      "animation": "player_walk_left",
+      "frame": 2,
+      "frame_duration_ms": 150
+    },
+    {
+      "path": "characters/player_idle_right.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "characters/player_walk_right_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated keyframe / registered animation",
+      "animation": "player_walk_right",
+      "frame": 1,
+      "frame_duration_ms": 150
+    },
+    {
+      "path": "characters/player_walk_right_02.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated keyframe / registered animation",
+      "animation": "player_walk_right",
+      "frame": 2,
+      "frame_duration_ms": 150
+    },
+    {
+      "path": "characters/player_phone_idle_down.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "characters/player_phone_walk_down_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "registered animation",
+      "animation": "player_phone",
+      "frame_duration_ms": 220
+    },
+    {
+      "path": "characters/player_tired_idle_down.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "characters/player_tired_walk_down_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "registered animation",
+      "animation": "player_tired",
+      "frame_duration_ms": 220
+    },
+    {
+      "path": "npcs/host_idle_down.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "npcs/host_talk_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "npcs/host_late_idle_down.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "npcs/npc_phone_idle_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "npcs/npc_unresponsive_idle_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "npcs/npc_child_01_idle.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "npcs/npc_child_01_walk_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "registered animation",
+      "animation": "npc_child",
+      "frame_duration_ms": 220
+    },
+    {
+      "path": "npcs/npc_teen_01_idle.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "npcs/npc_teen_01_walk_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "registered animation",
+      "animation": "npc_teen",
+      "frame_duration_ms": 220
+    },
+    {
+      "path": "npcs/npc_adult_01_idle.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "npcs/npc_adult_01_walk_01.png",
+      "width": 64,
+      "height": 96,
+      "logical_width": 32.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9583333333333334
+      },
+      "has_transparency": true,
+      "production": "registered animation",
+      "animation": "npc_adult",
+      "frame_duration_ms": 220
+    },
+    {
+      "path": "tiles/tile_grass_clean_01.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": false,
+      "production": "generated seamless texture",
+      "tileable": true
+    },
+    {
+      "path": "tiles/tile_grass_worn_01.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": false,
+      "production": "generated seamless texture",
+      "tileable": true
+    },
+    {
+      "path": "tiles/tile_grass_dead_01.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": false,
+      "production": "generated seamless texture",
+      "tileable": true
+    },
+    {
+      "path": "tiles/tile_path_clean_01.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": false,
+      "production": "generated seamless texture",
+      "tileable": true
+    },
+    {
+      "path": "tiles/tile_path_worn_01.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": false,
+      "production": "generated seamless texture",
+      "tileable": true
+    },
+    {
+      "path": "tiles/tile_path_cracked_01.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": false,
+      "production": "generated seamless texture",
+      "tileable": true
+    },
+    {
+      "path": "tiles/tile_arrow_down_clean.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": false,
+      "production": "generated ground + pixel symbol"
+    },
+    {
+      "path": "tiles/tile_arrow_glitch.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": false,
+      "production": "generated ground + pixel symbol"
+    },
+    {
+      "path": "props/tree_full_01.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/tree_worn_01.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/tree_dead_01.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/bush_full_01.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/bush_dead_01.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/flower_patch_01.png",
+      "width": 96,
+      "height": 96,
+      "logical_width": 48.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/flower_patch_wilted_01.png",
+      "width": 96,
+      "height": 96,
+      "logical_width": 48.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/bench_clean.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/bench_broken.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/lamp_post_clean.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/lamp_post_broken.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/trash_bin_clean.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/trash_bin_overflow.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/fountain_clean.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/fountain_dirty.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/fence_horizontal_clean.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/fence_vertical_clean.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/stall_games_clean.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/stall_abandoned.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/flags_colorful_01.png",
+      "width": 192,
+      "height": 64,
+      "logical_width": 96.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/flags_torn_01.png",
+      "width": 192,
+      "height": 64,
+      "logical_width": 96.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/ad_board_01.png",
+      "width": 128,
+      "height": 192,
+      "logical_width": 64.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/debris_trash_pile_01.png",
+      "width": 96,
+      "height": 96,
+      "logical_width": 48.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "props/sign_area_likes.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel symbol"
+    },
+    {
+      "path": "props/sign_area_notifications.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel symbol"
+    },
+    {
+      "path": "props/sign_area_gallery.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel symbol"
+    },
+    {
+      "path": "props/sign_area_trends.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel symbol"
+    },
+    {
+      "path": "props/sign_area_quiet.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel symbol"
+    },
+    {
+      "path": "props/sign_direction_down.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel symbol"
+    },
+    {
+      "path": "props/sign_exit.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel symbol"
+    },
+    {
+      "path": "props/sign_glitch_01.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel symbol"
+    },
+    {
+      "path": "props/debris_paper_01.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated cutout"
+    },
+    {
+      "path": "props/crack_small_01.png",
+      "width": 48,
+      "height": 48,
+      "logical_width": 24.0,
+      "logical_height": 24.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "pixel decal"
+    },
+    {
+      "path": "props/crack_large_01.png",
+      "width": 96,
+      "height": 96,
+      "logical_width": 48.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "pixel decal"
+    },
+    {
+      "path": "props/screen_glitch_01.png",
+      "width": 128,
+      "height": 192,
+      "logical_width": 64.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated screen + pixel glitch"
+    },
+    {
+      "path": "attractions/attraction_tunnel_base.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "attractions/attraction_likes_base.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "attractions/attraction_tower_base.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "attractions/attraction_gallery_base.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "attractions/attraction_trends_base.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "attractions/attraction_quiet_base.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "attractions/screen_scroll_01.png",
+      "width": 128,
+      "height": 192,
+      "logical_width": 64.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated frame + exact interface"
+    },
+    {
+      "path": "attractions/icon_like_01.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "pixel icon"
+    },
+    {
+      "path": "attractions/icon_notification_bubble.png",
+      "width": 80,
+      "height": 64,
+      "logical_width": 40.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated frame + notification icon"
+    },
+    {
+      "path": "attractions/frame_gallery_01.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated frame + pixel painting"
+    },
+    {
+      "path": "ui/ui_dialogue_box.png",
+      "width": 384,
+      "height": 128,
+      "logical_width": 192.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        336,
+        84
+      ]
+    },
+    {
+      "path": "ui/ui_choice_button.png",
+      "width": 256,
+      "height": 64,
+      "logical_width": 128.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        208,
+        20
+      ]
+    },
+    {
+      "path": "ui/ui_choice_button_selected.png",
+      "width": 256,
+      "height": 64,
+      "logical_width": 128.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        208,
+        20
+      ]
+    },
+    {
+      "path": "ui/ui_nameplate.png",
+      "width": 192,
+      "height": 48,
+      "logical_width": 96.0,
+      "logical_height": 24.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        144,
+        4
+      ]
+    },
+    {
+      "path": "ui/ui_hud_panel.png",
+      "width": 384,
+      "height": 96,
+      "logical_width": 192.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        336,
+        52
+      ]
+    },
+    {
+      "path": "ui/ui_notification_box.png",
+      "width": 320,
+      "height": 96,
+      "logical_width": 160.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        272,
+        52
+      ]
+    },
+    {
+      "path": "ui/ui_title_panel.png",
+      "width": 512,
+      "height": 192,
+      "logical_width": 256.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        464,
+        148
+      ]
+    },
+    {
+      "path": "ui/ui_button_primary.png",
+      "width": 256,
+      "height": 72,
+      "logical_width": 128.0,
+      "logical_height": 36.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        208,
+        28
+      ]
+    },
+    {
+      "path": "ui/ui_pause_panel.png",
+      "width": 384,
+      "height": 288,
+      "logical_width": 192.0,
+      "logical_height": 144.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        336,
+        244
+      ]
+    },
+    {
+      "path": "ui/ui_ending_panel.png",
+      "width": 448,
+      "height": 288,
+      "logical_width": 224.0,
+      "logical_height": 144.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated nine-slice frame + interface layout",
+      "content_rect": [
+        24,
+        22,
+        400,
+        244
+      ]
+    },
+    {
+      "path": "ui/ui_bar_time.png",
+      "width": 256,
+      "height": 48,
+      "logical_width": 128.0,
+      "logical_height": 24.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated frame + meter",
+      "fill_rect": [
+        51,
+        20,
+        180,
+        10
+      ],
+      "fill_usage": "clip horizontally according to value 0..1"
+    },
+    {
+      "path": "ui/icon_time.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "has_transparency": true,
+      "production": "pixel icon"
+    },
+    {
+      "path": "ui/ui_bar_energy.png",
+      "width": 256,
+      "height": 48,
+      "logical_width": 128.0,
+      "logical_height": 24.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated frame + meter",
+      "fill_rect": [
+        51,
+        20,
+        180,
+        10
+      ],
+      "fill_usage": "clip horizontally according to value 0..1"
+    },
+    {
+      "path": "ui/icon_energy.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "has_transparency": true,
+      "production": "pixel icon"
+    },
+    {
+      "path": "ui/ui_bar_focus.png",
+      "width": 256,
+      "height": 48,
+      "logical_width": 128.0,
+      "logical_height": 24.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated frame + meter",
+      "fill_rect": [
+        51,
+        20,
+        180,
+        10
+      ],
+      "fill_usage": "clip horizontally according to value 0..1"
+    },
+    {
+      "path": "ui/icon_focus.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "has_transparency": true,
+      "production": "pixel icon"
+    },
+    {
+      "path": "ui/ui_bar_fun.png",
+      "width": 256,
+      "height": 48,
+      "logical_width": 128.0,
+      "logical_height": 24.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated frame + meter",
+      "fill_rect": [
+        51,
+        20,
+        180,
+        10
+      ],
+      "fill_usage": "clip horizontally according to value 0..1"
+    },
+    {
+      "path": "ui/icon_fun.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "has_transparency": true,
+      "production": "pixel icon"
+    },
+    {
+      "path": "ui/ui_bar_control.png",
+      "width": 256,
+      "height": 48,
+      "logical_width": 128.0,
+      "logical_height": 24.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "has_transparency": true,
+      "production": "generated frame + meter",
+      "fill_rect": [
+        51,
+        20,
+        180,
+        10
+      ],
+      "fill_usage": "clip horizontally according to value 0..1"
+    },
+    {
+      "path": "ui/icon_control.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "has_transparency": true,
+      "production": "pixel icon"
+    },
+    {
+      "path": "portraits/portrait_player_normal.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated portrait crop"
+    },
+    {
+      "path": "portraits/portrait_player_tired.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated portrait crop"
+    },
+    {
+      "path": "portraits/portrait_host_normal.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated portrait crop"
+    },
+    {
+      "path": "portraits/portrait_host_late.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated portrait crop"
+    },
+    {
+      "path": "portraits/portrait_npc_generic_01.png",
+      "width": 192,
+      "height": 192,
+      "logical_width": 96.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated portrait crop"
+    },
+    {
+      "path": "final/final_wall_clean.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "final/final_wall_worn.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "final/final_curtain_closed.png",
+      "width": 256,
+      "height": 192,
+      "logical_width": 128.0,
+      "logical_height": 96.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "final/final_exit_frame.png",
+      "width": 256,
+      "height": 256,
+      "logical_width": 128.0,
+      "logical_height": 128.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated"
+    },
+    {
+      "path": "final/final_sign_end.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated sign + exact pixel text"
+    },
+    {
+      "path": "effects/fx_player_question.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "pixel effect"
+    },
+    {
+      "path": "effects/fx_question_small.png",
+      "width": 32,
+      "height": 32,
+      "logical_width": 16.0,
+      "logical_height": 16.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "pixel effect"
+    },
+    {
+      "path": "effects/fx_interact_prompt.png",
+      "width": 64,
+      "height": 64,
+      "logical_width": 32.0,
+      "logical_height": 32.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "has_transparency": true,
+      "production": "generated frame + input symbol"
+    },
+    {
+      "path": "effects/fx_notification_ping_01.png",
+      "width": 96,
+      "height": 96,
+      "logical_width": 48.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "has_transparency": true,
+      "production": "generated bell + pixel waves"
+    },
+    {
+      "path": "effects/fx_like_pop_01.png",
+      "width": 96,
+      "height": 96,
+      "logical_width": 48.0,
+      "logical_height": 48.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "has_transparency": true,
+      "production": "pixel effect"
+    },
+    {
+      "path": "effects/fx_player_notification_orbit_01.png",
+      "width": 128,
+      "height": 128,
+      "logical_width": 64.0,
+      "logical_height": 64.0,
+      "pixel_scale": 2,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "has_transparency": true,
+      "production": "generated bell + orbital effect"
+    }
+  ]
+}
